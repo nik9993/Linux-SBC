@@ -1,7 +1,7 @@
 # Linux-SBC
 Rough documentation of AT91SAM9N12 based SBC
 
-![](https://github.com/nik9993/Linux-SBC/blob/master/images/RevB_TOP.png "RevB Top")
+![](https://github.com/nik9993/Linux-SBC/blob/master/images/top_pop.jpeg "RevB Top")
 
 #Status
 Right now there are 3 errors on the Power Managment Circuit, The 3v3 LDO needs to be soldered standing up to avoid the pad on the back, or this will cause a short. Also the 1v and 1v8 LDO need to have a pull up jumper sodered to their third pin. This will enable the voltage regulation. Once those two problems have been solved, then you can power the Processor circuit.
