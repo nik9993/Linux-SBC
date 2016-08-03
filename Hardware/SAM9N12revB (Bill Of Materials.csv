@@ -1,0 +1,54 @@
+Report File:,C:\Users\nik99\Documents\My Documents\My Projects\SAM9N12\~SAM9N12revB (Bill Of Materials).csv,,,,,,
+Report Written:,"Monday, July 18, 2016",,,,,,
+Design Path:,C:\Users\nik99\Documents\My Documents\My Projects\SAM9N12\~SAM9N12revB.pcb,,,,,,
+Design Title:,,,,,,,
+Created:,6/25/16 18:06,,,,,,
+Last Saved:,7/18/16 15:22,,,,,,
+Editing Time:,20028 min,,,,,,
+Units:,thou (precision 3),,,,,,
+,,,,,,,
+Bill of Materials generated with DesignSpark PCB - www.DesignSpark.com/pcb,,,,,,,
+--------------------------------------------------------------------------,,,,,,,
+,,,,,,,
+,,,,,,,
+Ref Name,Qty,Component,Value,Package,Manufacturer,MPN,Description
+J9,1,1-534206-5,,SHDR30W89P254_2X15_3810X503X81,TE CONNECTIVITY,1-534206-5,30 Pin Header - Headers & Wire Housings REC 2X15P VRT T/H 900
+J2,1,114-00841-68,Micro SD Card,114-00841-68,AMPHENOL COMMERCIAL PRODUCTS,114-00841-68,Micro SD Card Reader
+J1,1,10104111-0001LF,,MICRO_USB_A/B_TYPE_RECEPTACLE,FCI,10104111-0001LF,"FCI Right Angle SMT Female Type AB Version 2.0 Micro USB Connector, 100 V ac, 1.8A"
+"S1, S2",2,431181015816,,431181015816,WURTH ELEKTRONIK,431181015816,"Tact Switch 5x5mm SMD Black Black Tactile Tactile Switch, NO 20 mA 0.3mm Surface Mount"
+J3,1,A-USBSA or UE27AC54100,,A-USBSA,ASSMANN WSW,A-USBSA,USB A type DIP ASSMANN WSW Female 1 port Right Angle Through Hole Type A USB Connector
+RGB,1,APTF1616SEEZGQBDC,,APTF1616SEEZGQBDC,Kingbright,APTF1616SEEZGQBDC,Standard LEDs - SMD RGB 621/525/470nm 400/180/100 mcd
+U2,1,AT91SAM9N12-CU,,BGA217,,at91sam9n12-cu,
+IC3,1,BD48K33G-TL,3.3v Trip,SOT95P280X125-3N,ROHM Semiconductor,BD48K33G-TL,Supervisory Circuits Volt Sup Det 2.3-6V
+"C13, C14, C15, C16, C17, C20, C21, C22, C23, C24, C26, C27, C28, C29, C30, C31, C32, C33, C35, C36, C37, C38, C39, C41, C43, C45, C47, C48, C49, C52, C53, C54, C55, C59, C60",35,Capacitor_Pol,0.1uF,DSCV,,,
+"C1, C2, C6, C7, C8, C5, C51",7,Capacitor_Pol,1uF,DSCV,,,
+"C18, C19, C25, C34, C40, C42, C44, C46, C50, C57",10,Capacitor_Pol,4.7uF,DSCV,,,
+C58,1,Capacitor_Pol,470pF,DSCV,,,
+"C3, C4",2,Capacitor_Pol,10uF,DSCV,,,
+"C11, C12",2,Capacitor_Pol,10pF,DSCV,,,
+"C9, C10",2,Capacitor_Pol,15pF,DSCV,,,
+C56,1,Capacitor_Pol,100pF,DSCV,,,
+"R3, R4, R6, R7, R8",5,ERJ-2RKF1501X,1.5K,RESC1005X40N,Panasonic,ERJ2RKF27R0X,Panasonic ERJ2RK Series Thick Film Surface Mount Fixed Resistor 402 Case 27Î© Â±1% 0.1W Â±100ppm/Â°C
+"R16, R17",2,RC0402JR-074K7L,4.7K,RESC1005X40N,Panasonic,ERJ2RKF27R0X,Panasonic ERJ2RK Series Thick Film Surface Mount Fixed Resistor 402 Case 27Î© Â±1% 0.1W Â±100ppm/Â°C
+"R12, R13, R14, R15",4,ERJ2RKF27R0X,27,RESC1005X40N,Panasonic,ERJ2RKF27R0X,Panasonic ERJ2RK Series Thick Film Surface Mount Fixed Resistor 402 Case 27Î© Â±1% 0.1W Â±100ppm/Â°C
+"R5, R20, R24",3,ERJ-2RKF1000X,100,RESC1005X40N,Panasonic,ERJ2RKF27R0X,Panasonic ERJ2RK Series Thick Film Surface Mount Fixed Resistor 402 Case 27Î© Â±1% 0.1W Â±100ppm/Â°C
+"R1, R2, R9, R19, R21, R22",6,ERJ-2RKF2000X,200,RESC1005X40N,Panasonic,ERJ2RKF27R0X,Panasonic ERJ2RK Series Thick Film Surface Mount Fixed Resistor 402 Case 27Î© Â±1% 0.1W Â±100ppm/Â°C
+R18,1,RC0402JR-07330RL,330,RESC1005X40N,Panasonic,ERJ2RKF27R0X,Panasonic ERJ2RK Series Thick Film Surface Mount Fixed Resistor 402 Case 27Î© Â±1% 0.1W Â±100ppm/Â°C
+R23,1,ERJ-2GEJ474X,470K,RESC1005X40N,Panasonic,ERJ2RKF27R0X,Panasonic ERJ2RK Series Thick Film Surface Mount Fixed Resistor 402 Case 27Î© Â±1% 0.1W Â±100ppm/Â°C
+IC1,1,NCP1117ST33T3G,3.3v,SOT230P700X180-4N,ON Semiconductor,NCP1117ST33T3G,
+XTAL2,1,QC5CA,16 MHz,SON380P320X500X110-4N,Qantek,QC5CA,4-Pad SMD All Ceramic Crystal Unit
+U1,1,S34ML04G200TFI000,Nand,TS/TSR 48-L,,S34ML04G200TFI000,
+IC2,1,NCP700BSN18T1G,1.8v .3A,SOT95P270X145-5N,Microchip,NCP700BSN18T1G,LDO Regulator 150mA 1.8V SHDN SOT23-5
+REF10,1,TLV71210DBVR,1v .3A,DBV5-L,,TLV71210DBVR,
+U3,1,W9751G6KB-25,RAM,WIN_WBGA-84,,w9751g6kb-25,
+XTAL1,1,XTAL,32.768KHZ,DSC,ABS10-32.768KHZ-T,,
+"J4, J5",2,2 Pin Breadboard Header,,USER,,,Meant to be soldered after manufacture
+J10,1,67997-206HLF,,6 pin twin headers,TE CONNECTIVITY,1-534206-5,Headers & Wire Housings REC 2X15P VRT T/H 900
+"J7, J8",2,PPPC061LGBN-RC,,6 Pin FTDI Header,,,PCB Through Hole Header - Single Row Vertica
+LED6,1,LED,LED 5MM Blue,DSC,,,Light Em Di
+LED2,1,LED,LED 5MM GREEN,DSC,,,Light Em Di
+LED3,1,LED,LED 5MM GREEN,DSC,,,Light Em Di
+LED7,1,LED,LED 5MM GREEN,DSC,,,Light Em Di
+LED5,1,LED,LED 5MM Orange,DSC,,,Light Em Di
+LED1,1,LED,LED 5MM RED,DSC,,,Light Em Di
+LED4,1,LED,LED 5MM RED,DSC,,,Light Em Di
