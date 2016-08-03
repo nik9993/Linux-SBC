@@ -1,8 +1,14 @@
 # Linux-SBC
 Rough documentation of AT91SAM9N12 based SBC
 
+![](https://github.com/nik9993/Linux-SBC/blob/master/images/RevB_TOP.png "RevB Top")
+
 #Status
 Right now there are 3 errors on the Power Managment Circuit, The 3v3 LDO needs to be soldered standing up to avoid the pad on the back, or this will cause a short. Also the 1v and 1v8 LDO need to have a pull up jumper sodered to their third pin. This will enable the voltage regulation. Once those two problems have been solved, then you can power the Processor circuit.
+
+Even when the voltage regulators are working properly the 1v and 1v8 LED barely light up, this is due to the low voltage being supplied, it does not have enough difference to light the LED, however, by checking the LDOs' output with a multimeter, I can tell that they are, in fact, working as intended.
+
+Also the NAND on the Back was removed because the pitch on the component is just a hair smaller than the board, this causes a short in the NAND, so it is removed for the time being.
 
 As of right now the processor is not booting up. It is keeping the SHDN line High and pulling the NRST Line Low. Currently investigating.
 
