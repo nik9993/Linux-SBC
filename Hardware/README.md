@@ -1,7 +1,7 @@
 #Hardware Revision B
 
 ##Block Diagram
-
+![Block Diagram](https://github.com/nik9993/Linux-SBC/blob/master/images/Board%20Block%20Diagram.png "Board Block Diagram")
 ##Hardware Overview
 Processor:	Atmel AT91SAM9N12 (ARMv9) @ 400 MHz
 

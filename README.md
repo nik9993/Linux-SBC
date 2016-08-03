@@ -1,10 +1,12 @@
 # Linux-SBC
 Rough documentation of AT91SAM9N12 based SBC
 
-![](https://github.com/nik9993/Linux-SBC/blob/master/images/top_pop.jpeg "RevB Top")
+![](https://github.com/nik9993/Linux-SBC/blob/master/images/top_pop.jpeg "RevB Top Populated")
 
 #Status
 Right now there are 3 errors on the Power Managment Circuit, The 3v3 LDO needs to be soldered standing up to avoid the pad on the back, or this will cause a short. Also the 1v and 1v8 LDO need to have a pull up jumper sodered to their third pin. This will enable the voltage regulation. Once those two problems have been solved, then you can power the Processor circuit.
+
+![](https://github.com/nik9993/Linux-SBC/blob/master/images/power%20fixes.jpg "Power Fixes")
 
 Even when the voltage regulators are working properly the 1v and 1v8 LED barely light up, this is due to the low voltage being supplied, it does not have enough difference to light the LED, however, by checking the LDOs' output with a multimeter, I can tell that they are, in fact, working as intended.
 
