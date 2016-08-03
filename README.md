@@ -25,4 +25,4 @@ This could be due to insufficient POR Output or just that the processor never go
 Once the processor boots, I am expecting to connect the usb slave to a windows computer and windows should recognize a USB CDC device. At that point it will as for a driver. once that happens I will use the SAMBA tool to load the bootloader and other files onto the board.
 
 
-This Board is based off of 2 previous boards created by [hak8or](https://github.com/hak8or) and [henrik](https://github.com/Ttl), you can see their projects [here](https://github.com/nik9993/Embedded-Linux-System/tree/master/at91sam9n12) and [here](https://github.com/nik9993/sam_board), respectivley.
+This Board is based off of 2 previous boards created by [hak8or](https://github.com/hak8or) and [henrik](https://github.com/Ttl), you can see their projects [here](https://github.com/hak8or/Embedded-Linux-System/tree/master/at91sam9n12) and [here](https://github.com/ttl/sam_board), respectivley.
