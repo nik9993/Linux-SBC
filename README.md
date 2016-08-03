@@ -9,6 +9,8 @@ As of right now the processor is not booting up. It is keeping the SHDN line Hig
 #Boot Process
 Right now the Boot Process is held up at the Shutdown Controller (SHDWC). The SHDN line is being held high and NRST is being held low meaning that the Reset Controller in the processor never releases the reset line.
 
+![alt text](https://github.com/nik9993/Linux-SBC/blob/master/images/Power-Up%20Reset.png "Power Up Boot Process")
+
 This could be due to insufficient POR Output or just that the processor never goes through startup to initialize the crystals.
 
 #Expected Boot Process
